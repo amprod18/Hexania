@@ -1,8 +1,9 @@
-from PyQt5 import QtWidgets
-from PyQt5.QtWidgets import QMainWindow
+import lib_installer
 import sys
 import os
 import submenus_gui
+from PyQt5 import QtWidgets
+from PyQt5.QtWidgets import QMainWindow
 
 
 class MainWindow(QMainWindow):
@@ -14,6 +15,7 @@ class MainWindow(QMainWindow):
 
 
 if __name__ == "__main__":
+    lib_installer.installer()
     app = QtWidgets.QApplication(sys.argv)
     main_window = QtWidgets.QMainWindow()
     ui = MainWindow(app)
