@@ -14,7 +14,7 @@ class MainWindow(QMainWindow):
 
 
 if __name__ == "__main__":
-    cwd = os.getcwd()
+    cwd = os.getcwd() + "\\images\\"
     app = QtWidgets.QApplication(sys.argv)
     main_window = QtWidgets.QMainWindow()
     ui = MainWindow(app)

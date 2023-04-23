@@ -9,7 +9,7 @@ class Ui_main_menu(QtWidgets.QWidget):
     def __init__(self, app, main_window=None):
         global cwd
         super().__init__(main_window)
-        cwd = os.getcwd()
+        cwd = os.getcwd() + "\\images\\"
         avaliable = QtWidgets.QDesktopWidget().availableGeometry()
         self.width_, self.height_ = avaliable.right() - avaliable.left(), avaliable.bottom() - avaliable.top()
         self.color = "(100, 100, 100)"
