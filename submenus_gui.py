@@ -142,7 +142,7 @@ class Ui_main_menu(QtWidgets.QWidget):
 
     def retranslate_main_menu_Ui(self, main_window):
         _translate = QtCore.QCoreApplication.translate
-        main_window.setWindowTitle(_translate("main_window", "MainWindow"))
+        main_window.setWindowTitle(_translate("main_window", "Hexania"))
         self.help_button.setText(_translate("main_window", "Help"))
         self.exit_button.setText(_translate("main_window", "Exit"))
 
