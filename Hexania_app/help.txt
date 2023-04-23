@@ -1,0 +1,87 @@
+!!!!OUTDATED!!!!
+
+----What is Hexania about?----
+
+Hexania is a software in developement that allows the user to create some geometric figures given enough information. It is what I like to call a 'geometric calculator'. As an example
+imagine we create a 'square' given only the diagonal. Hexania will do all the needed calculations to get all the other information such as the side, perimeter and surface with just one click. 
+Moreover, Hexania will display a scaled figure of the one we created 'imaginaryly'. The reason it is scaled is because Hexania work in pixels. Can you imagine a square of size two pixels?
+Of course it would be a total mess, so it is compulsory to resize the given polygon for bettter comprehension.
+
+----How do I use Hexania?----
+
+Hexania's interface is intuitive and easy to use. Once you are in the menu, you will notice some images refering to diferent kinds of polygons. These polygons are the only ones avaliable
+in this current version of Hexania. By now only the following polygons are available: Circle, Diamond, Rectangle, Regular Polygon, Rhomboid, Square and Circle (more coming soon!). In case you 
+want to create any of this polygons, you should click on the corresponding image and another menu will appear. In this menu you will have diferent objects depending on the selected polygon. 
+All polygons have the 'Draw Polygon' , 'Back to menu', 'Clean screen' and 'Help' buttons in common. 'Draw Polygon' takes the available information given by the user, makes the operations needed 
+to get the rest of the information and displays the polygon in the screen next to the information outputs and buttons. Moreover, the rest of the information will appear on the right grid with the
+desired results and the formula (and path to the final formula if needed) used to get the results. Finally, it is not necessary to fill all the information boxes, you should only fill the ones 
+you feel like, need or have. Once you filled enough gaps, start drawing!
+
+----Square:----
+
+Square information is compounded by 'side', 'diagonal', 'perimeter' and 'surface'. To be able to draw a square you only need 1 piece of information. With just one entry filled, Hexania 
+will be able to make the rest of the operations. Once the 'Draw Square' button is pressed -the polygon will be displayed by a 'pen' next to the information (note that the polygon has 
+been scaled for the aforementioned reasons)-. One extra piece of information is the 'Number of decimals' entry that is used to display the wanted precision in the calculations (the default 
+value is 2 decimals).
+
+----Rectangle:----
+
+Rectangle information is compounded by 'height', 'length', 'diagonal', 'perimeter' and 'surface'. To be able to draw a rectangle you need 2 pieces of information. With enough entries
+filled, Hexania will be able to make the rest of the operations. Once the 'Draw Rectangle' button is pressed the polygon -will be displayed by a 'pen' next to the information (note that the 
+polygon has been scaled for the aforementioned reasons)-. One extra piece of information is the 'Number of decimals' entry that is used to display the wanted precision in the calculations 
+(the default value is 2 decimals).
+
+----Diamond:----
+
+Diamond information is compounded by 'side', 'diagonal1', 'diagonal2', 'perimeter' and 'surface'. To be able to draw a diamond you need 2 pieces of information. With enough entries
+filled, Hexania will be able to make the rest of the operations. Once the 'Draw Polygon' button is pressed the polygon will be -displayed by a 'pen' next to the information (note that the 
+polygon has been scaled for the aforementioned reasons)-. One extra piece of information is the 'Number of decimals' entry that is used to display the wanted precision in the calculations 
+(the default value is 2 decimals).
+
+----Rhomboid:----
+
+Rhomboid information is compounded by 'oblique side', 'height', 'length', 'skew', 'perimeter' and 'surface'. To be able to draw a rhomboid you need 3 pieces of information. With enough entries
+filled, Hexania will be able to make the rest of the operations. Once the 'Draw Rhomboid' button is pressed the polygon will -be displayed by a 'pen' next to the information (note that the 
+polygon has been scaled for the aforementioned reasons)-. One extra piece of information is the 'Number of decimals' entry that is used to display the wanted precision in the calculations 
+(the default value is 2 decimals).
+
+----Regular polygon:----
+
+Regular polygon information is compounded by 'side', 'radius', 'apothem', 'perimeter', 'surface' and 'number of sides'. To be able to draw a regular polygon you need 2 pieces of 
+information in adition to the number of sides (by default it will be 5). With enough entries filled and the number of sides specified, Hexania will be able to make the rest of the operations. 
+Once the 'Draw Regular Polygon' button is pressed the polygon will -be displayed by a 'pen' next to the information (note that the polygon has been scaled for the aforementioned reasons)-. One extra
+piece of information is the 'Number of decimals' entry that is used to display the wanted precision in the calculations (the default value is 2 decimals).
+
+----General triangle:----
+
+General triangle information is compounded by 'side1', 'side2', 'side3', 'angle1', 'angle2', 'angle3', 'perimeter' and 'surface'. To be able to draw a general triangle you need 3 pieces of 
+information. With enough entries filled, Hexania will be able to make the rest of the operations. Once the 'Draw Triangle' button is pressed the polygon will be displayed by a 'pen' next to
+the information (note that the polygon has been scaled for the aforementioned reasons). One extra piece of information is the 'Number of decimals' entry that is used to display the wanted 
+precision in the calculations (the default value is 2 decimals).
+
+----Circle:----
+
+Circle information is compounded by 'radius', 'diameter', 'perimeter' and 'surface'. To be able to draw a circle you need only 1 piece of information. With just one entry filled, Hexania
+will be able to make the rest of the operations. Once the 'Draw Cricle' button is pressed the polygon will be displayed by a 'pen' next to the information (note that the polygon has been 
+scaled for the aforementioned reasons). One extra piece of information is the 'Number of decimals' entry that is used to display the wanted precision in the calculations (the default value 
+is 2 decimals).
+
+----Back to menu:----
+
+Once a polygon has been chosen, you could go back to menu with the 'Back to menu' button. This will erase all the info and polygons drawn and will show the principal menu again. This button
+is shown in every submenu and always does the same action of going back directly to the menu.
+
+----Draw Polygon:----
+
+Once a polygon has been chosen, you could give some information. Once the information has been filled, you could 'start drawing'. This action will take all your entries and make the needed 
+calculations to obtain the rest of the polygon's infomration and will display a scaled version of the polygon. This button will be avaliable in the polygon's submenus only.
+
+----Clean screen:----
+
+Once a polygon has been chosen and drawn, the 'canvas' used to draw it will contain some information. In case you want to draw more polygons of the same kind, you may need to reset the 
+canvas to avoid making a mess in the screen. 'Clean screen' button erases the drawn polygon and the information displayed next to the 'canvas'. Be sure you do not need any more 
+information before cleaning the screen.
+
+----Exit program:----
+
+This button does what you could imagine. It closes Hexania losing all information given. Be sure you do not need any more infomration before shutting down Hexania.
