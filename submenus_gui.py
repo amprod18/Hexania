@@ -9,7 +9,7 @@ class Ui_main_menu(QtWidgets.QWidget):
     def __init__(self, app, main_window=None):
         global cwd
         super().__init__(main_window)
-        cwd = os.getcwd() + "\\images\\"
+        cwd = os.getcwd()
         avaliable = QtWidgets.QDesktopWidget().availableGeometry()
         self.width_, self.height_ = avaliable.right() - avaliable.left(), avaliable.bottom() - avaliable.top()
         self.color = "(100, 100, 100)"
@@ -44,7 +44,7 @@ class Ui_main_menu(QtWidgets.QWidget):
         self.circle_button.setGeometry(QtCore.QRect(410, 200, 150, 150))
         self.circle_button.setText("")
         icon = QtGui.QIcon()
-        icon.addPixmap(QtGui.QPixmap(cwd + "images/circle_button1_bad.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off) # type: ignore
+        icon.addPixmap(QtGui.QPixmap(cwd + "/images/circle_button1_bad.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off) # type: ignore
         self.circle_button.setIcon(icon)
         self.circle_button.setIconSize(QtCore.QSize(150, 150))
         self.circle_button.setObjectName("circle_button")
@@ -55,7 +55,7 @@ class Ui_main_menu(QtWidgets.QWidget):
         self.diamond_button.setGeometry(QtCore.QRect(470, 430, 150, 150))
         self.diamond_button.setText("")
         icon1 = QtGui.QIcon()
-        icon1.addPixmap(QtGui.QPixmap(cwd + "images/diamond_button1_bad.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off) # type: ignore
+        icon1.addPixmap(QtGui.QPixmap(cwd + "/images/diamond_button1_bad.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off) # type: ignore
         self.diamond_button.setIcon(icon1)
         self.diamond_button.setIconSize(QtCore.QSize(150, 150))
         self.diamond_button.setObjectName("diamond_button")
@@ -66,7 +66,7 @@ class Ui_main_menu(QtWidgets.QWidget):
         self.square_button.setGeometry(QtCore.QRect(1310, 430, 150, 150))
         self.square_button.setText("")
         icon2 = QtGui.QIcon()
-        icon2.addPixmap(QtGui.QPixmap(cwd + "images/square_button1_bad.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off) # type: ignore
+        icon2.addPixmap(QtGui.QPixmap(cwd + "/images/square_button1_bad.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off) # type: ignore
         self.square_button.setIcon(icon2)
         self.square_button.setIconSize(QtCore.QSize(150, 150))
         self.square_button.setObjectName("square_button")
@@ -77,7 +77,7 @@ class Ui_main_menu(QtWidgets.QWidget):
         self.rhomboid_button.setGeometry(QtCore.QRect(1140, 610, 150, 150))
         self.rhomboid_button.setText("")
         icon3 = QtGui.QIcon()
-        icon3.addPixmap(QtGui.QPixmap(cwd + "images/rhomboid_button1_bad.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off) # type: ignore
+        icon3.addPixmap(QtGui.QPixmap(cwd + "/images/rhomboid_button1_bad.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off) # type: ignore
         self.rhomboid_button.setIcon(icon3)
         self.rhomboid_button.setIconSize(QtCore.QSize(150, 150))
         self.rhomboid_button.setObjectName("rhomboid_button")
@@ -88,7 +88,7 @@ class Ui_main_menu(QtWidgets.QWidget):
         self.regular_polygon_button.setGeometry(QtCore.QRect(890, 680, 150, 150))
         self.regular_polygon_button.setText("")
         icon4 = QtGui.QIcon()
-        icon4.addPixmap(QtGui.QPixmap(cwd + "images/regular_polygon_button1_bad.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off) # type: ignore
+        icon4.addPixmap(QtGui.QPixmap(cwd + "/images/regular_polygon_button1_bad.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off) # type: ignore
         self.regular_polygon_button.setIcon(icon4)
         self.regular_polygon_button.setIconSize(QtCore.QSize(150, 150))
         self.regular_polygon_button.setObjectName("regular_polygon_button")
@@ -99,7 +99,7 @@ class Ui_main_menu(QtWidgets.QWidget):
         self.rectangle_button.setGeometry(QtCore.QRect(640, 610, 150, 150))
         self.rectangle_button.setText("")
         icon5 = QtGui.QIcon()
-        icon5.addPixmap(QtGui.QPixmap(cwd + "images/rectangle_button1_bad.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off) # type: ignore
+        icon5.addPixmap(QtGui.QPixmap(cwd + "/images/rectangle_button1_bad.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off) # type: ignore
         self.rectangle_button.setIcon(icon5)
         self.rectangle_button.setIconSize(QtCore.QSize(150, 150))
         self.rectangle_button.setObjectName("rectangle_button")
@@ -110,7 +110,7 @@ class Ui_main_menu(QtWidgets.QWidget):
         self.triangle_button.setGeometry(QtCore.QRect(1370, 200, 150, 150))
         self.triangle_button.setText("")
         icon6 = QtGui.QIcon()
-        icon6.addPixmap(QtGui.QPixmap(cwd + "images/triangle_button1_bad.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off) # type: ignore
+        icon6.addPixmap(QtGui.QPixmap(cwd + "/images/triangle_button1_bad.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off) # type: ignore
         self.triangle_button.setIcon(icon6)
         self.triangle_button.setIconSize(QtCore.QSize(150, 150))
         self.triangle_button.setObjectName("triangle_button")
