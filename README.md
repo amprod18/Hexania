@@ -1,7 +1,7 @@
 # Hexania
 Geometric calculator in development
 
-(Use main_front script to run to use the calculator)
+(Run main_front script to use the calculator)
 
 This calculator is still in development so it will have bugs, mistakes and missing features that will be implemented in the future.
 
