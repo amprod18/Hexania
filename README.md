@@ -10,4 +10,4 @@ Feel free to check the help menu for more understanding of the basic management 
 
 In the future hexania will become a desktop application and other versions working (doing calculations) in other ways will be tested for 
 speed and precision purposes.
-These other working ways are eqsolving with 'sympy', api implementation with 'ChatGPT' and polygon generalization through triangulation.
+These other working ways are eqsolving with 'sympy', api implementation with 'ChatGPT' and polygon generalization through triangularization.
