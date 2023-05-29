@@ -1,4 +1,4 @@
-# Hexania <img src="https://github.com/amprod18/Hexania/blob/main/icon_w.ico" alt="Project Icon" align="right" width="80">
+# Hexania v0.1 <img src="https://github.com/amprod18/Hexania/blob/main/icon_w.ico" alt="Project Icon" align="right" width="80">
 
 ## Overview
 
