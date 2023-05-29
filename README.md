@@ -1,4 +1,4 @@
-# Hexania
+# Hexania <img src="https://github.com/amprod18/Hexania/blob/main/icon_w.ico" alt="Project Icon" align="right" width="80">
 
 ## Overview
 
@@ -21,7 +21,7 @@ Hexania is a Python program that allows users to perform calculations on various
 
 We appreciate your understanding and encourage you to report any issues or suggestions through the project's issue tracker. Contributions and feedback are welcome as we work towards improving and stabilizing the program.
 
-## Installation
+## Installation <img align="right" alt="coding" width="50" src="https://github.com/amprod18/amprod18/blob/main/coding_icon.gif">
 
 1. Clone the repository:
 
