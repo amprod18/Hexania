@@ -214,7 +214,7 @@ class Ui_crl_menu(QtWidgets.QWidget):
         self.centralwidget.setStyleSheet("background-color: rgb" + self.parent().color + ";") # type: ignore
 
         # Set up output grid
-        self.crl_output_grid_obj = QtWidgets.QWidget(self.centralwidget)
+        self.crl_output_grid_obj = QtWidgets.QWidget(self.centralwidget) 
         self.crl_output_grid_obj.setGeometry(QtCore.QRect(610, 220, 332, 311))
         self.crl_output_grid_obj.setObjectName("crl_output_grid_obj")
         self.crl_output_grid = QtWidgets.QGridLayout(self.crl_output_grid_obj)
@@ -447,7 +447,7 @@ class Ui_crl_menu(QtWidgets.QWidget):
             v.setText(str(crl_info[i]))
         for i, v in enumerate(self.crl_latex_outputs):
             v.setPixmap(self.parent().get_pixmap_from_latex(str(crl_latex[i]))) # type: ignore
-            v.setScaledContents(True)
+            # v.setScaledContents(True)
     
     def clean_crl_menu(self):
         for i in self.crl_value_outputs:
@@ -730,7 +730,7 @@ class Ui_dmd_menu(QtWidgets.QWidget):
             v.setText(str(dmd_info[i]))
         for i, v in enumerate(self.dmd_latex_outputs):
             v.setPixmap(self.parent().get_pixmap_from_latex(str(dmd_latex[i]))) # type: ignore
-            v.setScaledContents(True)
+            # v.setScaledContents(True)
     
     def clean_dmd_menu(self):
         for i in self.dmd_value_outputs:
@@ -1013,7 +1013,7 @@ class Ui_rct_menu(QtWidgets.QWidget):
             v.setText(str(rct_info[i]))
         for i, v in enumerate(self.rct_latex_outputs):
             v.setPixmap(self.parent().get_pixmap_from_latex(str(rct_latex[i]))) # type: ignore
-            v.setScaledContents(True)
+            # v.setScaledContents(True)
     
     def clean_rct_menu(self):
         for i in self.rct_value_outputs:
@@ -1326,7 +1326,7 @@ class Ui_rp_menu(QtWidgets.QWidget):
             v.setText(str(rp_info[i]))
         for i, v in enumerate(self.rp_latex_outputs):
             v.setPixmap(self.parent().get_pixmap_from_latex(str(rp_latex[i]))) # type: ignore
-            v.setScaledContents(True)
+            # v.setScaledContents(True)
     
     def clean_rp_menu(self):
         for i in self.rp_value_outputs:
@@ -1641,7 +1641,7 @@ class Ui_rhm_menu(QtWidgets.QWidget):
             v.setText(str(rhm_info[i]))
         for i, v in enumerate(self.rhm_latex_outputs):
             v.setPixmap(self.parent().get_pixmap_from_latex(str(rhm_latex[i]))) # type: ignore
-            v.setScaledContents(True)
+            # v.setScaledContents(True)
     
     def clean_rhm_menu(self):
         for i in self.rhm_value_outputs:
@@ -1896,7 +1896,7 @@ class Ui_sq_menu(QtWidgets.QWidget):
             v.setText(str(sq_info[i]))
         for i, v in enumerate(self.sq_latex_outputs):
             v.setPixmap(self.parent().get_pixmap_from_latex(str(sq_latex[i]))) # type: ignore
-            v.setScaledContents(True)
+            # v.setScaledContents(True)
     
     def clean_sq_menu(self):
         for i in self.sq_value_outputs:
@@ -2263,7 +2263,7 @@ class Ui_tgl_menu(QtWidgets.QWidget):
             v.setText(str(tgl_info[i]))
         for i, v in enumerate(self.tgl_latex_outputs):
             v.setPixmap(self.parent().get_pixmap_from_latex(str(tgl_latex[i]))) # type: ignore
-            v.setScaledContents(True)
+            # v.setScaledContents(True)
     
     def clean_tgl_menu(self):
         for i in self.tgl_value_outputs:
