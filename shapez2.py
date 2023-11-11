@@ -1517,3 +1517,18 @@ class Triangle:
             return (triangle_value, triangle_latex)
         except TypeError:
             return ("Not enough information about the polygon!", "{}")
+
+class irregular_polygon:
+    def __init__(self, points, perimeter=None, surface=None, n=2):
+        self.name = "Irregular Polygon"
+        self.size = len(points)
+        self.points = points
+        self.perimeter = perimeter
+        self.surface = surface
+        self.n = n
+
+    def get_perimeter(self):
+        for i, point in enumerate(self.points):
+            x0, y0 = point
+            x1, y1 = self.points[(i+1)%self.size]
+            x_1, y_1 = self.points[(i-1)%self.size]
